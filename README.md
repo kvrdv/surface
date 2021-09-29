@@ -1,3 +1,5 @@
-###Adaptive website demo
+## Surface
 
-kvrdv.github.io/surface
+### Adaptive website demo
+
+[Visit page](kvrdv.github.io/surface)
