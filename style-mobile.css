@@ -82,7 +82,7 @@ h5 {
   }
 
   .header::after {
-    content: "";
+    content: '';
     background-color: #0a0e34;
     position: absolute;
     top: 0;
@@ -144,7 +144,7 @@ h5 {
     font-family: OpenSans-Regular;
     font-size: 8px;
     text-transform: uppercase;
-        color: #ffffff;
+    color: #ffffff;
     text-align: left;
     margin-left: 8px;
   }
@@ -212,7 +212,7 @@ h5 {
   }
 
   .number::after {
-    content: "";
+    content: '';
     display: block;
     width: 15px;
     height: 4px;
@@ -283,7 +283,22 @@ h5 {
     padding-right: 20px;
   }
 
-   .basket-item_01 {
+  .basket-items-header {
+    display: flex;
+  }
+
+  .basket-items-header > .number {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .basket-items-header > .term {
+    margin: 0;
+  }
+
+  .basket-item_01 {
     background-color: #fafafa;
   }
 
@@ -292,6 +307,7 @@ h5 {
   }
 
   .basket-item_03 {
+    min-width: 100vw;
     background-color: #090c35;
   }
 
@@ -300,11 +316,11 @@ h5 {
     width: 100%;
   }
 
-  .basket-item_03 > .number {
+  .basket-item_03 > .basket-items-header > .number {
     color: #8765dd;
   }
 
-  .basket-item_03 > .number::after {
+  .basket-item_03 > .basket-items-header > .number::after {
     background-color: #ffffff;
   }
 
@@ -330,7 +346,7 @@ h5 {
   }
 
   .square-number::after {
-    content: "";
+    content: '';
     display: block;
     width: 15px;
     height: 4px;
@@ -395,7 +411,7 @@ h5 {
   }
 
   .footer::after {
-    content: "";
+    content: '';
     background-color: #0a0e34;
     position: absolute;
     top: 0;

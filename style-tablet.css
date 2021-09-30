@@ -323,6 +323,22 @@ h5 {
     padding-right: 20px;
   }
 
+  .basket-items-header {
+    display: flex;
+  }
+
+  .basket-items-header > .number {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .basket-items-header > .term {
+    margin: 0;
+  }
+
+
   .basket-item_01 {
     background-color: #ffffff;
     margin-top: 190px;
@@ -342,11 +358,11 @@ h5 {
     color: #ffffff;
   }
 
-  .basket-item_03 > .number {
+  .basket-item_03 > .basket-items-header > .number {
     color: #8765dd;
   }
 
-  .basket-item_03 > .number::after {
+  .basket-item_03 > .basket-items-header > .number::after {
     background-color: #ffffff;
   }
 
